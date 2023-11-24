@@ -4,10 +4,10 @@ from PIL import Image #Image Processing
 import numpy as np #Image Processing 
 
 #title
-st.title("Easy OCR - Extract Text from Images")
+st.title("Extracting texts from Image")
 
 #image uploader
-image = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg'])
+image = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg','pdf'])
 
 
 @st.cache
